@@ -7,7 +7,7 @@ import {BsBatteryHalf, BsFillLockFill} from 'react-icons/bs'
 function App() {
   return (
 <Stack  h={'100vh'} w={'full'} justifyContent={'center'} alignItems={'center'} overflowY={'hidden'}>
-<VStack backgroundImage={'https://wallpapers.com/images/featured/aesthetic-iphone-8k436w42fxqrt0xb.jpg'} bgPosition={'center'} padding={'4'} mt={['-24','0']} border={'5px solid'} backgroundSize={'cover'} backgroundRepeat={'no-repeat'} h={'60%'} w={['70%','17%']} borderRadius={'3xl'} p={'.5'}>
+<VStack backgroundImage={'https://wallpapers.com/images/featured/aesthetic-iphone-8k436w42fxqrt0xb.jpg'} bgPosition={'center'} justifyContent={'space-between'}  padding={'4'} mt={['-24','0']} border={'5px solid'} backgroundSize={'cover'} backgroundRepeat={'no-repeat'} h={'60%'} w={['70%','17%']} borderRadius={'3xl'} p={'.5'}>
 <HStack  h={'3%'} w={'100%'} justifyContent={'space-evenly'} boxSizing='border-box' borderTopRadius={'3xl'}   >
 <Text fontSize={'12px'} ml={'-2.5'} mt={'2'} color={'white'} >Airtel</Text>
 <HStack h={'90%'} borderBottomRadius={'xl'} ml={'8'} w={'35%'} justifyContent={'center'} bg={'blackAlpha.700'}>
@@ -20,10 +20,11 @@ function App() {
 <BsBatteryHalf color='white' size={'16px'}/>
 </HStack>
 </HStack>
-<VStack >
+<VStack h={'full'}>
 <BsFillLockFill color='white'/>
 </VStack>
 
+<Box h={'1%'} w={'40%'}  borderRadius={'2xl'} bg={'white'}></Box>
 </VStack>
 </Stack>
   );
