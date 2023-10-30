@@ -43,52 +43,53 @@ function Iphonehome() {
         
       >
        <Iphonetop/>
-       <VStack w={'full'} h={'100%'} mt={'4'}  border={'1px solid'} spacing={'8'}>
-<HStack spacing={'8'}>
-  <Button backgroundColor={'blackAlpha.300'} h={'40px'} ><RiChromeFill color='white' size={'30px'}/></Button>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
+       <VStack w={'full'} h={'100%'} mt={'4'}   spacing={['8']}>
+<HStack spacing={['4','8']}>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  <Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  
 </HStack>
 
 
-<HStack spacing={'8'}>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
+<HStack spacing={['4','8']}>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  <Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
 </HStack>
 
 
-<HStack spacing={'8'}>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
+<HStack spacing={['4','8']}>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  <Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
 </HStack>
 
 
-<HStack spacing={'8'}>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
+<HStack spacing={['4','8']}>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  <Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
 </HStack>
 
 
-<HStack spacing={'8'}>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
+<HStack spacing={['4','8']}>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  <Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
 </HStack>
 
 
-<HStack spacing={'8'}>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
-  <Button>G</Button>
+<HStack spacing={['4','8']}>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  <Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
 </HStack>
 
 
@@ -97,7 +98,12 @@ function Iphonehome() {
         
 
 
-
+<HStack spacing={['4','8']} mt={'4'} bg={'blackAlpha.500'} p={'2'} borderRadius={'2xl'}>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+<Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+  <Button backgroundColor={'blackAlpha.300'} h={'40px'} textColor={'white'}>G</Button>
+</HStack>
 
         <Link to={'/iphoneX'}>
         <Button
