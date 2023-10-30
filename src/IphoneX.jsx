@@ -1,14 +1,19 @@
 import { Box, HStack, Heading, Stack, Text, VStack } from '@chakra-ui/layout';
 
-import { RiWifiFill } from 'react-icons/ri';
-import { GiLightBulb, GiNetworkBars } from 'react-icons/gi';
-import { BsBatteryHalf, BsFillLockFill, BsCamera } from 'react-icons/bs';
-import { useState } from 'react';
+import { } from 'react-icons/ri';
+import { GiLightBulb} from 'react-icons/gi';
+import { BsFillLockFill, BsCamera} from 'react-icons/bs';
+
 import { Button } from '@chakra-ui/button';
 
+
+import Iphonetop from './Iphonetop';
+import { Link } from 'react-router-dom';
+
 function IphoneX() {
-
-
+  
+  
+ 
 
   const date = new Date();
   const currentHour = date.getHours();
@@ -55,9 +60,9 @@ function IphoneX() {
       justifyContent={'center'}
       alignItems={'center'}
       overflowY={'hidden'}
-
-    >
-      <VStack
+      
+      >
+      <VStack 
         backgroundImage={
           'https://wallpapers.com/images/featured/aesthetic-iphone-8k436w42fxqrt0xb.jpg'
         }
@@ -72,44 +77,9 @@ function IphoneX() {
         w={['70%', '17%']}
         borderRadius={'3xl'}
         p={'.5'}
-      >
-        <HStack
-          h={'3%'}
-          w={'100%'}
-          justifyContent={'space-evenly'}
-          boxSizing="border-box"
-          borderTopRadius={'3xl'}
         >
-          <Text fontSize={'12px'} mt={'2'} color={'white'}>
-            Airtel
-          </Text>
-          <HStack
-            h={'90%'}
-            borderBottomRadius={'xl'}
-            ml={'8'}
-            w={'35%'}
-            justifyContent={'center'}
-            bg={'blackAlpha.700'}
-          >
-            <Box
-              h={'50%'}
-              w={'40%'}
-              borderRadius={'2xl'}
-              bg={'blackAlpha.700'}
-            ></Box>
-            <Box
-              h={'8px'}
-              w={'8px'}
-              borderRadius={'100%'}
-              bg={'blackAlpha.700'}
-            ></Box>
-          </HStack>
-          <HStack mt={'2'}>
-            <RiWifiFill color="white" size={'12px'} />
-            <GiNetworkBars color="white" size={'12px'} />
-            <BsBatteryHalf color="white" size={'16px'} />
-          </HStack>
-        </HStack>
+         
+       <Iphonetop/>
         <VStack h={'full'}>
           <BsFillLockFill color="white" />
           <HStack>
@@ -125,19 +95,25 @@ function IphoneX() {
           <Button p={'2'} variant={'solid'} bg={'blackAlpha.700'} colorScheme='white' borderRadius={'100%'} >
             <GiLightBulb color={'white'}  size={'23px'}/>
           </Button>
+       
           <Text p={'2'} bg={'blackAlpha.700'} borderRadius={'100%'}>
             <BsCamera color="white" size={'23px'} />
           </Text>
         </HStack>
-        <Box
-          h={'1%'}
-          w={'40%'}
-          mb={'0.5'}
-          borderRadius={'2xl'}
+        <Link to={'/iphoneX/iphoneXhome'}>
+        <Button
+         h={'4px'}
+         px={'14'}
+          
           bg={'white'}
-        ></Box>
+          >
+       
+          </Button>
+
+          </Link>
       </VStack>
     </Stack>
+         
   );
 }
 
