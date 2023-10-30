@@ -59,7 +59,7 @@ function IphoneX() {
         bgPosition={'center'}
         justifyContent={'space-between'}
         padding={'4'}
-        mt={['-24', '-24']}
+        mt={['-36', '-36']}
         border={'5px solid'}
         backgroundSize={'cover'}
         backgroundRepeat={'no-repeat'}
