@@ -3,8 +3,13 @@ import { Box, HStack, Heading, Stack, Text, VStack } from '@chakra-ui/layout';
 import { RiWifiFill } from 'react-icons/ri';
 import { GiLightBulb, GiNetworkBars } from 'react-icons/gi';
 import { BsBatteryHalf, BsFillLockFill, BsCamera } from 'react-icons/bs';
+import { useState } from 'react';
+import { Button } from '@chakra-ui/button';
 
 function IphoneX() {
+
+
+
   const date = new Date();
   const currentHour = date.getHours();
   const currentMinute = date.getMinutes();
@@ -117,9 +122,9 @@ function IphoneX() {
           </Heading>
         </VStack>
         <HStack w={'full'} justifyContent={'space-around'} spacing={'8'}>
-          <Text p={'2'} bg={'blackAlpha.700'} borderRadius={'100%'}>
-            <GiLightBulb color="white" size={'23px'} />
-          </Text>
+          <Button p={'2'} variant={'solid'} bg={'blackAlpha.700'} colorScheme='white' borderRadius={'100%'} >
+            <GiLightBulb color={'white'}  size={'23px'}/>
+          </Button>
           <Text p={'2'} bg={'blackAlpha.700'} borderRadius={'100%'}>
             <BsCamera color="white" size={'23px'} />
           </Text>
